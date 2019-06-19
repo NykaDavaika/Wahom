@@ -1,0 +1,51 @@
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.slider{
+	margin: 0;
+	min-height: 1025px;
+	width: 100%;
+	background: url("../img/slider.jpg") no-repeat;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	padding-top: 62px;
+	color: #fff;
+	
+	font-family: Helvetica;
+}
+
+.header__section{
+	display: flex;
+	align-items: center;
+}
+
+.header__item{
+	padding: 30px 30px 0 30px;
+	font-size: 12px;
+}
+
+.header__item a:hover{
+	color: #A47943FF;
+}
+
+.headerLogo{
+	font-size: 22px;
+	margin-left: 30px;
+	margin-right: 220px;
+}
+
+.shoppingCartIcon{
+	max-width: 20px;
+	min-height: 25px;
+}
+
+.searchIcon{
+	max-width: 25px;
+	min-height: 25px;
+}
