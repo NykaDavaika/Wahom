@@ -90,3 +90,54 @@ a:hover {
 	background: url("../img/search.png") no-repeat;
 	background-size: contain;
 }
+
+.slogan {
+	width: 600px;
+	height: 160px;
+	margin-top: 300px;
+}
+
+.slogan_firstRow {
+	width: 456px;
+	height: 34px;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+  }
+
+  .slogan_secondRow {
+	width: 589px;
+	height: 50px;
+	font-family: Raleway;
+	font-size: 52px;
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+  }
+
+  .slogan_thirdRow, .slogan_fourthRow {
+	width: 562px;
+	height: 39px;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+  }
