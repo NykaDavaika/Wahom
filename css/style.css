@@ -20,6 +20,7 @@ a:hover {
 
 .section_background_first-block {
 	background: url("../img/first-block-image.jpg") no-repeat;
+	background-size: cover;
 }
 
 .first-block {
@@ -97,47 +98,31 @@ a:hover {
 	margin-top: 300px;
 }
 
-.slogan_firstRow {
-	width: 456px;
-	height: 34px;
-	font-family: Raleway;
-	font-size: 36px;
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
-	vertical-align: middle;
-	color: #ffffff;
+  .hero__main-text {
+	  color: white;
+	  text-align: center;
+	  margin-top: 300px;
   }
 
-  .slogan_secondRow {
-	width: 589px;
-	height: 50px;
-	font-family: Raleway;
+  .hero__main-text h1 {
 	font-size: 52px;
+	font-family: Raleway;
 	font-weight: 800;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: center;
-	vertical-align: middle;
-	color: #ffffff;
   }
 
-  .slogan_thirdRow, .slogan_fourthRow {
-	width: 562px;
-	height: 39px;
-	font-family: Montserrat;
-	font-size: 16px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.5;
-	letter-spacing: normal;
-	text-align: center;
-	vertical-align: middle;
-	color: #ffffff;
+  .hero__main-text h1 span {
+	  font-size: 36px;
+	  font-weight: 500;
+	  font-family: Raleway;
   }
+
+  .hero__main-text p {
+	  width: 460px;
+	  margin: auto;
+	  margin-top: 15px;
+	  font-family: Montserrat;
+	  font-size: 16px;
+	  font-weight: 300;
+	  line-height: 1.5;
+  }
+
